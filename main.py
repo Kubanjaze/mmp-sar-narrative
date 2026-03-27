@@ -18,8 +18,8 @@ from itertools import combinations
 
 import pandas as pd
 import numpy as np
-from rdkit import Chem, DataStructs
-from rdkit.Chem import AllChem, RDLogger
+from rdkit import Chem, DataStructs, RDLogger
+from rdkit.Chem import AllChem
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
